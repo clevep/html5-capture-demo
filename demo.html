@@ -3,10 +3,34 @@
   <head>
     <script type="text/javascript" src="js/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="js/capture.js"></script>
+    <style type="text/css">
+      video, img {
+        display: block;
+      }
+      #canvas {
+        display: none;
+      }
+      .capture-output {
+        display: none;
+      }
+      .capture-output img {
+        width: 640px;
+        height: 480px;
+      }
+    </style>
   </head>
   <body>
-    <video id="video" width="640" height="480" autoplay></video>
-    <button id="snap">Snap Photo</button>
+    <div class="capture-input">
+      <video id="video" width="640" height="480" autoplay></video>
+      <button id="snap">Snap Photo</button>
+    </div>
     <canvas id="canvas" width="640" height="480"></canvas>
+    <div class="capture-output">
+      <a download="" href="">
+        <img src="" alt="" />
+        Click to download
+      </a>
+    </div>
+
   </body>
 </html>
