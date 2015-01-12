@@ -6,3 +6,7 @@ capture a frame, and then store it.
 Capturing is done using the [getUserMedia
 API](http://w3c.github.io/mediacapture-main/getusermedia.html) and we use
 a canvas tag as an intermediary to download a frame.
+
+[getUserMedia browser support.](http://caniuse.com/#feat=stream)
+
+[DEMO!](https://github.com/clevep/html5-capture-demo)
