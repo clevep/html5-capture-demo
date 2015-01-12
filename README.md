@@ -9,4 +9,4 @@ a canvas tag as an intermediary to download a frame.
 
 [getUserMedia browser support.](http://caniuse.com/#feat=stream)
 
-[DEMO!](https://github.com/clevep/html5-capture-demo)
+[DEMO!](http://cdn.rawgit.com/clevep/html5-capture-demo/master/demo.html)
