@@ -5,6 +5,8 @@
     <script type="text/javascript" src="js/capture.js"></script>
     <style type="text/css">
       video, img {
+        width: 640px;
+        height: 480px;
         display: block;
       }
       #canvas {
@@ -13,15 +15,11 @@
       .capture-output {
         display: none;
       }
-      .capture-output img {
-        width: 640px;
-        height: 480px;
-      }
     </style>
   </head>
   <body>
     <div class="capture-input">
-      <video id="video" width="640" height="480" autoplay></video>
+      <video id="video" autoplay></video>
       <button id="snap">Snap Photo</button>
     </div>
     <canvas id="canvas" width="640" height="480"></canvas>
